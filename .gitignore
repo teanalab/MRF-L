@@ -1,5 +1,10 @@
+*res
 *~
 *.swp
+check-cds.pl
+cds-docnos.txt
+*.errlog
+
 # Compiled Object files
 *.slo
 *.lo
