@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="umlsLce" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/umlsLce" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/umlsLce" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/BigramsOrigConceptSelector.hpp" />
+		<Unit filename="include/BigramsPrfTermMatchConceptSelector.hpp" />
+		<Unit filename="include/ConceptSelector.hpp" />
+		<Unit filename="include/ConceptSelectorFuns.hpp" />
+		<Unit filename="include/CoordinateAscent.hpp" />
+		<Unit filename="include/ExtResourceProcessor.hpp" />
+		<Unit filename="include/HtBigramsOrigConceptSelector.hpp" />
+		<Unit filename="include/HtBigramsPrfConceptSelector.hpp" />
+		<Unit filename="include/HtPrfConceptSelector.hpp" />
+		<Unit filename="include/HtUnigramsOrigConceptSelector.hpp" />
+		<Unit filename="include/QueryReformulator.hpp" />
+		<Unit filename="include/QueryThread.hpp" />
+		<Unit filename="include/Types.hpp" />
+		<Unit filename="include/UmlsOrigMetaMapConceptSelector.hpp" />
+		<Unit filename="include/UmlsPrfMetaMapConceptSelector.hpp" />
+		<Unit filename="include/UmlsRelatedConceptSelector.hpp" />
+		<Unit filename="include/UnigramsOrigConceptSelector.hpp" />
+		<Unit filename="include/Utility.hpp" />
+		<Unit filename="include/Weighter.hpp" />
+		<Unit filename="include/modRMExpander.hpp" />
+		<Unit filename="src/BigramsOrigConceptSelector.cpp" />
+		<Unit filename="src/BigramsPrfTermMatchConceptSelector.cpp" />
+		<Unit filename="src/ConceptSelector.cpp" />
+		<Unit filename="src/ConceptSelectorFuns.cpp" />
+		<Unit filename="src/CoordinateAscent.cpp" />
+		<Unit filename="src/ExtResourceProcessor.cpp" />
+		<Unit filename="src/HtBigramsOrigConceptSelector.cpp" />
+		<Unit filename="src/HtBigramsPrfConceptSelector.cpp" />
+		<Unit filename="src/HtPrfConceptSelector.cpp" />
+		<Unit filename="src/HtUnigramsOrigConceptSelector.cpp" />
+		<Unit filename="src/QueryReformulator.cpp" />
+		<Unit filename="src/QueryThread.cpp" />
+		<Unit filename="src/RMExpander.cpp" />
+		<Unit filename="src/UmlsOrigMetaMapConceptSelector.cpp" />
+		<Unit filename="src/UmlsPrfMetaMapConceptSelector.cpp" />
+		<Unit filename="src/UmlsRelatedConceptSelector.cpp" />
+		<Unit filename="src/UnigramsOrigConceptSelector.cpp" />
+		<Unit filename="src/Utility.cpp" />
+		<Unit filename="src/Weighter.cpp" />
+		<Unit filename="src/modRMExpander.cpp" />
+		<Unit filename="src/umlsLceIndriRunQuery.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
