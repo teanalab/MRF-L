@@ -5,7 +5,7 @@
 
 Group Name: WSU-IR 
 
-## Paper:
+## Corresponding Paper:
 Balaneshin-kordan, S., Kotov, A., and Xisto, R. (2015). WSU-IR at TREC 2015 Clinical Decision Support
 Track: Joint Weighting of Explicit and Latent Medical Query Concepts from Diverse Sources. In Proceedings
 of the 2015 Text Retrieval Conference. [\[pdf\]](http://trec.nist.gov/pubs/trec24/papers/wsu_ir-CL.pdf)
