@@ -1,10 +1,26 @@
 # MRF-L
 
 ## Competition:
-TREC 2015 CDS track
+[TREC 2015 CDS track](http://www.trec-cds.org/2015.html)
 
 Group Name: WSU-IR 
 
+## Paper:
+Balaneshin-kordan, S., Kotov, A., and Xisto, R. (2015). WSU-IR at TREC 2015 Clinical Decision Support
+Track: Joint Weighting of Explicit and Latent Medical Query Concepts from Diverse Sources. In Proceedings
+of the 2015 Text Retrieval Conference. [\[pdf\]](http://trec.nist.gov/pubs/trec24/papers/wsu_ir-CL.pdf)
+
+## Abstract:
+This paper describes participation of WSU-IR group in TREC
+2015 Clinical Decision Support (CDS) track. We present a Markov Random
+Fields-based retrieval model and an optimization method for jointly
+weighting statistical and semantic unigram, bigram and multi-phrase
+concepts from the query and PRF documents as well as three specific
+instantiations of this model that we used to obtain the runs submitted
+for each task in this track. These instantiations consider different types
+of concepts and use different parts of topics as queries.
+
+## Description:
 This program is a part of Project INTGR. Project INTGR aims to integrate semantic and statistical query transformation approaches by adopting optimization techniques. This project focuses on medical domain information retrieval systems in which the queries tend to be verbose. This part of the project is submitted to ECIR 2016. It aims to integrate a sequential dependency model in describing queries that are transformed by using the concepts from following sources:
 
 1. unigram concepts from query,
