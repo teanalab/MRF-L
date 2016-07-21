@@ -10,7 +10,7 @@ Balaneshin-kordan, S., Kotov, A., and Xisto, R. (2015). WSU-IR at TREC 2015 Clin
 Track: Joint Weighting of Explicit and Latent Medical Query Concepts from Diverse Sources. In Proceedings
 of the 2015 Text Retrieval Conference. [\[pdf\]](http://trec.nist.gov/pubs/trec24/papers/wsu_ir-CL.pdf)
 
-## Abstract:
+## Paper Abstract:
 This paper describes participation of WSU-IR group in TREC
 2015 Clinical Decision Support (CDS) track. We present a Markov Random
 Fields-based retrieval model and an optimization method for jointly
@@ -21,8 +21,10 @@ for each task in this track. These instantiations consider different types
 of concepts and use different parts of topics as queries.
 
 ## Description:
-This program is a part of Project INTGR. Project INTGR aims to integrate semantic and statistical query transformation approaches by adopting optimization techniques. This project focuses on medical domain information retrieval systems in which the queries tend to be verbose. This part of the project is submitted to ECIR 2016. It aims to integrate a sequential dependency model in describing queries that are transformed by using the concepts from following sources:
+This program is a part of Project INTGR. Project INTGR aims to integrate semantic and statistical query transformation approaches by adopting optimization techniques. The paper for INTGR project is published in ICTIR\`16.
+The INTGR project focuses on medical domain information retrieval systems in which the queries tend to be verbose. It aims to integrate a sequential dependency model in describing queries that are transformed by using the concepts from different semantic and statistic concept sources.
 
+## Concept Sources
 1. unigram concepts from query,
 2. unigram concepts from top-documents,
 3. UMLS n-gram concepts from query,
@@ -33,4 +35,4 @@ Concepts from the first three sources are extracted automatically, while the con
 1. They are related to medical domain (e.g., "blood cancer")
 2. They are not very common phrases (e.g., "health care")
 
-All experiments were conducted using Indri 5.8. The .cfg files are the configuation files of [IndriRunQuery](http://sourceforge.net/p/lemur/wiki/IndriRunQuery/) and all the runs submitted for TREC-CDS15 can be reproduced by using these configuration files.
+All experiments were conducted using Indri 5.8. The .cfg files are the configuation files of [IndriRunQuery](http://sourceforge.net/p/lemur/wiki/IndriRunQuery/). All the runs submitted for TREC-CDS15 can be reproduced by using these configuration files.
