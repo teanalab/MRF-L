@@ -14,4 +14,4 @@ Concepts from the first three sources are extracted automatically, while the con
 1. They are related to medical domain (e.g., "blood cancer")
 2. They are not very common phrases (e.g., "health care")
 
-All experiments were conducted using Indri 5.8. The .cfg files are the configuation files of IndriRunQuery (http://sourceforge.net/p/lemur/wiki/IndriRunQuery/) and all the runs submitted for TREC-CDS15 can be reproduced by using these configuration files.
+All experiments were conducted using Indri 5.8. The .cfg files are the configuation files of [IndriRunQuery](http://sourceforge.net/p/lemur/wiki/IndriRunQuery/) and all the runs submitted for TREC-CDS15 can be reproduced by using these configuration files.
