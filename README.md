@@ -1,6 +1,9 @@
 # MRF-L
 
-This program belongs to the TREC CDS track submission from WSU-IR group in 2015. 
+## Competition:
+TREC 2015 CDS track
+
+Group Name: WSU-IR 
 
 This program is a part of Project INTGR. Project INTGR aims to integrate semantic and statistical query transformation approaches by adopting optimization techniques. This project focuses on medical domain information retrieval systems in which the queries tend to be verbose. This part of the project is submitted to ECIR 2016. It aims to integrate a sequential dependency model in describing queries that are transformed by using the concepts from following sources:
 
