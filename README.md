@@ -36,3 +36,16 @@ Concepts from the first three sources are extracted automatically, while the con
 2. They are not very common phrases (e.g., "health care")
 
 All experiments were conducted using Indri 5.8. The .cfg files are the configuation files of [IndriRunQuery](http://sourceforge.net/p/lemur/wiki/IndriRunQuery/). All the runs submitted for TREC-CDS15 can be reproduced by using these configuration files.
+
+## Dataset
+The modified PubMed dataset that is used in this project is publicly available at:
+[http://academictorrents.com/details/371a9244d2e9344a196a449f898e0a4385b6b43a](http://academictorrents.com/details/371a9244d2e9344a196a449f898e0a4385b6b43a)
+By using this collection and indexing it by using the configuration file in [this link](https://github.com/teanalab/MRF-L/tree/master/index), you can replicate results for different runs from indexing to retrieval. 
+
+## Testing
+In order to test the runs, you can simply use (IndriRunQuery)[https://sourceforge.net/p/lemur/wiki/IndriRunQuery/]. For example, to test wsuirdaa:
+`IndriRunQuery configs/wsuirdaa.cfg > runs/wsuirdaa_new.res`
+and you can use (trec_eval)[http://trec.nist.gov/trec_eval/] to obtain the evaluation results:
+`trec_eval qrels runs/wsuirdaa_new.res`
+where `qrels` can be downloaded from (this link)[http://www.trec-cds.org/2016.html].
+
