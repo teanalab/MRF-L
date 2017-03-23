@@ -55,3 +55,13 @@ and you can use (trec_eval)[http://trec.nist.gov/trec_eval/] to obtain the evalu
 
 where `qrels` can be downloaded from (this link)[http://www.trec-cds.org/2016.html].
 
+## Citing MRF-L
+
+When citing MRF-L in academic papers and theses, please use this BibTeX entry:
+
+@inproceedings{balaneshinkordan2015wsu,
+  title={WSU-IR at TREC 2015 Clinical Decision Support Track: Joint Weighting of Explicit and Latent Medical Query Concepts from Diverse Sources.},
+  author={Balaneshinkordan, Saeid and Kotov, Alexander and Xisto, Railan},
+  booktitle={TREC},
+  year={2015}
+ }
