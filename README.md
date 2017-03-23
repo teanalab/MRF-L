@@ -55,6 +55,9 @@ and you can use (trec_eval)[http://trec.nist.gov/trec_eval/] to obtain the evalu
 
 where `qrels` can be downloaded from (this link)[http://www.trec-cds.org/2016.html].
 
+## Related Papers
+- Balaneshin-kordan, Saeid, and Alexander Kotov. "Optimization method for weighting explicit and latent concepts in clinical decision support queries." In Proceedings of the 2016 ACM International Conference on the Theory of Information Retrieval (ICTIR'16), pp. 241-250. ACM, 2016. [\[pdf\]](http://www.cs.wayne.edu/kotov/docs/balaneshinkordan-ictir16-full.pdf)
+
 ## Citing MRF-L
 
 When citing MRF-L in academic papers and theses, please use this BibTeX entry:
@@ -65,6 +68,3 @@ When citing MRF-L in academic papers and theses, please use this BibTeX entry:
     booktitle={TREC},
     year={2015}
     }
-
-## Related Paper:
-Balaneshin-kordan, Saeid, and Alexander Kotov. "Optimization method for weighting explicit and latent concepts in clinical decision support queries." In Proceedings of the 2016 ACM International Conference on the Theory of Information Retrieval (ICTIR'16), pp. 241-250. ACM, 2016. [\[pdf\]](http://www.cs.wayne.edu/kotov/docs/balaneshinkordan-ictir16-full.pdf)
