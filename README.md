@@ -67,4 +67,4 @@ When citing MRF-L in academic papers and theses, please use this BibTeX entry:
     }
 
 ## Related Paper:
-Balaneshin-kordan, Saeid, and Alexander Kotov. "Optimization method for weighting explicit and latent concepts in clinical decision support queries." In Proceedings of the 2016 ACM on International Conference on the Theory of Information Retrieval, pp. 241-250. ACM, 2016. [\[pdf\]](http://www.cs.wayne.edu/kotov/docs/balaneshinkordan-ictir16-full.pdf)
+Balaneshin-kordan, Saeid, and Alexander Kotov. "Optimization method for weighting explicit and latent concepts in clinical decision support queries." In Proceedings of the 2016 ACM International Conference on the Theory of Information Retrieval (ICTIR'16), pp. 241-250. ACM, 2016. [\[pdf\]](http://www.cs.wayne.edu/kotov/docs/balaneshinkordan-ictir16-full.pdf)
